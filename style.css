@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "neon";
+  src: url("Neon.ttf")
+}
+
+body {
+background-color: #111315;
+}
+
+a{
+  color:#2FFB24;
+  text-decoration: none;
+  transition: text-shadow 1s;
+}
+a:hover{
+  text-shadow: 0 0 20px #2FFB24, 0 0 40px green, 0 0 80px green;
+}
+
+#Cabecera {
+	font-family: "neon";
+	font-size: 100px;
+	text-align: center;
+  margin:10px;
+	text-shadow: 0 0 20px #2FFB24, 0 0 40px green, 0 0 80px green;
+  color:#2FFB24;
+}
+
+#visual{
+  width: 400px;
+  height: 300px;
+  margin: 40px;
+  margin-left: 440px;
+}
+
+#git{
+  width: 500px;
+  height: 300px;
+  margin: 40px;
+}
+
+#copy{
+  font-family: "neon";
+  font-size: 20px;
+  margin-top: 16.4%;
+  margin-left: 82%;
+  text-shadow: 0 0 20px #2FFB24, 0 0 40px green, 0 0 80px green;
+  color:#2FFB24;
+}
+
+p{
+ 
+  font-family: arial;
+}
+
+#a{
+  text-align-last: center;
+  text-align: justify;
+  font-size: 30px;
+  
+  
+
+  color: #807E7E;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#sidebar {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: #151719;
+  left: -210px;
+  transition: all 500ms linear;
+  border: solid;
+  border-color:#2FFB24;
+}
+
+#sidebar.active {
+  left: 0px;
+}
+
+#sidebar ul li {
+  color: rgba(230, 230, 230, .9);
+  list-style: none;
+  padding: 15px 10px;
+  border-bottom: 1px solid rgba(100, 100, 100, .3);
+  text-align: center;
+  text-shadow: 0 0 10px;
+  font-family: "neon";
+  font-size: 20px;
+
+}
+
+.logo {
+  border: 3px solid #2FFB24;;
+  border-radius: 50%;
+  width: 100px; height: 100px;
+  display: block;
+  margin: 0 auto; 
+  box-shadow: 0 0 10px #2FFB24
+  
+}
+
+#sidebar .toggle-btn {
+  position: absolute;
+  left: 230px;
+  top: 20px;
+  cursor: pointer;
+  color:#2FFB24;
+}
+
+#sidebar .toggle-btn span {
+  display: block;
+  width: 40px;
+  text-align: center;
+  font-size: 30px;
+  border: 3px solid #000;
+  border-color: #2FFB24;
+  text-shadow: 0 0 10px #2FFB24, 0 0 40px green, 0 0 80px green;
+  box-shadow: 0 0 10px #2FFB24
+}
